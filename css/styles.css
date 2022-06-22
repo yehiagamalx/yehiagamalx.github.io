@@ -74,6 +74,7 @@ h2 {
   font-weight: 700;
   font-size: 15px;
   width: 300px;
+  cursor: pointer;
 }
 
 .btn-white {
@@ -95,95 +96,21 @@ h2 {
   color: rgb(0, 44, 126);
 }
 
-/* 
-.main {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-
+#tw-sign-in {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
 }
 
-.right {
-    background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 60%;
+#signin-email {
+  text-decoration: none;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  width: 300px;
 }
-
-.left {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 30px;
-}
-
-.right div svg {
-    display: block;
-    height: 200px;
-    margin: 0 auto;
-    padding-top: 200px; 
-  }
-  
-
-.left div svg {
-    display: block;
-    height: 40px;
-    margin: 10px ;
-  }
-
-h1, h2, p {
-    color: #E7E9EA;
-}
-
-h6 {
-    color: #1F2022;
-}
-
-h1 {
-    font-size: 64px;
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 31px;
-}
-
-.signup {
-    display: flex;
-    flex-direction: column;
-}
-
-.signin h3 {
-    color: #F7FAFF;
-}
-
-.btn {
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 15px 15px;
-    width: 300px;
-    font-weight: 700;
-    font-size: 15px;
-}
-
-
-.btn-white {
-    background-color:#F7FAFF;
-    border: 1px solid rgb(0, 0, 0);
-    color: black;
-}
-
-.btn-blue {
-    background-color: #1A8CD8;
-    color: #E2F1FA;
-    border: none;
-}
-
-
-.btn-black {
-    background-color:rgb(0, 0, 0);
-    border: 1px solid rgb(255, 247, 247);
-    color: rgb(0, 44, 126);
-}
- */
