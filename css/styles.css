@@ -133,6 +133,14 @@ h2 {
   margin-left: -272px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+}
+
 #signin-email {
   text-decoration: none;
   border-radius: 1.25em;
