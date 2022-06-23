@@ -14,4 +14,3 @@ function nextSignInOpen() {
 function nextSignInClose() {
   document.getElementById("popup-next").style.display = "none";
 }
-none;
