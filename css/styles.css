@@ -126,15 +126,18 @@ h2 {
   position: fixed;
   z-index: 9;
   background-color: #000000;
-  width: 100vw;
+  width: 35vw;
   height: 100vh;
+  top: 124px;
+  left: 50%;
+  margin-left: -272px;
 }
 
 #signin-email {
   text-decoration: none;
   border-radius: 1.25em;
   padding-top: 0.9375em;
-  padding-bottom: 0.9375em;
+  padding-bottom: 1.25em;
   font-weight: 700;
   font-size: 0.9375em;
   width: 18.75em;
