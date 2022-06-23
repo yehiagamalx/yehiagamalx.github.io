@@ -1,8 +1,17 @@
 function openSignIn() {
-  document.getElementById("tw-sign-in").style.display = "block";
-  console.log("clicked");
+  document.getElementById("popup-sign").style.display = "block";
 }
 
 function closeSignIn() {
-  document.getElementById("tw-sign-in").style.display = "none";
+  document.getElementById("popup-sign").style.display = "none";
 }
+
+function nextSignInOpen() {
+  document.getElementById("popup-next").style.display = "block";
+  console.log("next clicked");
+}
+
+function nextSignInClose() {
+  document.getElementById("popup-next").style.display = "none";
+}
+none;

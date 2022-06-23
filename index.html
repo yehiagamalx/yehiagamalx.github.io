@@ -156,10 +156,8 @@
         </div>
       </div> -->
     </div>
-
-    <div class="four-row" id="tw-sign-in">
-      <form action="" class="form-container">
-       
+    <div id="popup-sign">
+      <form action="" class="form-container">     
         <h1>Sign in to Twitter</h1>
         <label for="email"></label>
         <input
@@ -168,9 +166,19 @@
           placeholder="Phone, email, or username"
         />
     
-        <button class="btn btn-white">Next</button><br />
+        <button class="btn btn-white" onclick="nextSignInOpen()">Next</button><br />
         <button class="btn btn-white">Forget password?</button>
         <p>Don't have an account? <a href="#">Sign up</a></p>
+        <p class="exit" onclick="closeSignIn()">exit</p>
+      </form>
+    </div>
+
+
+    <div id="popup-next">
+      <form action="" class="form-container">     
+            <button class="btn btn-white">Forget password?</button>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+        <p class="exit" onclick="nextSignInClose()">exit</p>
       </form>
     </div>
 
