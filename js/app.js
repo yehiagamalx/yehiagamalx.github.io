@@ -8,7 +8,7 @@ function closeSignIn() {
 
 function nextSignInOpen() {
   document.getElementById("popup-next").style.display = "block";
-  console.log("next clicked");
+  document.getElementById("popup-sign").style.display = "none";
 }
 
 function nextSignInClose() {
