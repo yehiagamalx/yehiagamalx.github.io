@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clone OF Twitter</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main">
@@ -158,6 +159,31 @@
     </div>
     <div id="popup-sign">
       <form action="" class="form-container">     
+        <div class="formLogHead">
+          <svg viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="
+                  M 630, 425
+                  A 195, 195 0 0 1 331, 600
+                  A 142, 142 0 0 0 428, 570
+                  A  70,  70 0 0 1 370, 523
+                  A  70,  70 0 0 0 401, 521
+                  A  70,  70 0 0 1 344, 455
+                  A  70,  70 0 0 0 372, 460
+                  A  70,  70 0 0 1 354, 370
+                  A 195, 195 0 0 0 495, 442
+                  A  67,  67 0 0 1 611, 380
+                  A 117, 117 0 0 0 654, 363
+                  A  65,  65 0 0 1 623, 401
+                  A 117, 117 0 0 0 662, 390
+                  A  65,  65 0 0 1 630, 425
+                  Z"
+              style="fill: #ffffff"
+            />
+          </svg>
+          <i class="fa fa-times" aria-hidden="true" onclick="closeSignIn()"></i>
+
+        </div>
         <h1>Sign in to Twitter</h1>
         <label for="email"></label>
         <input
@@ -169,16 +195,43 @@
         <button class="btn btn-white" type="button" onclick="nextSignInOpen()">Next</button><br />
         <button class="btn btn-white">Forget password?</button>
         <p>Don't have an account? <a href="#">Sign up</a></p>
-        <p class="exit" onclick="closeSignIn()">exit</p>
+
       </form>
     </div>
 
 
     <div id="popup-next">
-      <form action="" class="form-container">     
-            <button class="btn btn-white">Forget password?</button>
+      <form>
+        <div class="formLogHead">
+          <svg viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="
+                  M 630, 425
+                  A 195, 195 0 0 1 331, 600
+                  A 142, 142 0 0 0 428, 570
+                  A  70,  70 0 0 1 370, 523
+                  A  70,  70 0 0 0 401, 521
+                  A  70,  70 0 0 1 344, 455
+                  A  70,  70 0 0 0 372, 460
+                  A  70,  70 0 0 1 354, 370
+                  A 195, 195 0 0 0 495, 442
+                  A  67,  67 0 0 1 611, 380
+                  A 117, 117 0 0 0 654, 363
+                  A  65,  65 0 0 1 623, 401
+                  A 117, 117 0 0 0 662, 390
+                  A  65,  65 0 0 1 630, 425
+                  Z"
+              style="fill: #ffffff"
+            />
+          </svg>
+          <i class="fa fa-times" aria-hidden="true" onclick="nextSignInClose()"></i>
+
+        </div>
+        <h2>Enter your password</h2>
+        <input placeholder="Username" type="text">
+        <input placeholder="Password" type="text">
+        <button class="btn btn-white">Log in</button>
         <p>Don't have an account? <a href="#">Sign up</a></p>
-        <p class="exit" onclick="nextSignInClose()">exit</p>
       </form>
     </div>
 
