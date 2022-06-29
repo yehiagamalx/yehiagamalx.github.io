@@ -5,8 +5,10 @@ body {
     BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: black;
   height: 100vh;
+  width: 100vw;
   backdrop-filter: blur(5px);
   --webkit-backdrop-filter: blur(5px);
+  color: #fff;
 }
 
 html {
@@ -18,4 +20,200 @@ html {
   display: flex;
   flex-direction: row;
   height: 100%;
+}
+
+.home-left {
+  width: 25%;
+  height: 100%;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.menuItem svg {
+  display: block;
+  height: 1.5em;
+  margin-left: 10px;
+}
+
+.menuItem h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.menuItem:hover {
+  background-color: dimgray;
+  cursor: pointer;
+  width: 30%;
+}
+
+.homeLeftLogo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.tweet-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1a8cd8;
+  border: none;
+  border-radius: 1.25em;
+  padding-top: 0.9375em;
+  padding-bottom: 1.25em;
+  font-weight: 700;
+  font-size: 0.9375em;
+  width: 90%;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0px solid black;
+  align-items: stretch;
+}
+.home-right {
+  width: 75%;
+  height: 100%;
+}
+
+.profile-button {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  border-radius: 1.25em;
+  padding-top: 0.9375em;
+  padding-bottom: 1.25em;
+  font-weight: 700;
+  font-size: 0.9375em;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.profile-button:hover {
+  background-color: dimgray;
+  cursor: pointer;
+  width: 30%;
+}
+
+.profileRealName {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.profileHandle {
+  font-size: 16px;
+  color: rgb(62, 65, 68);
+  margin: 0;
+}
+
+.vl {
+  border-right: 1px solid rgb(62, 66, 62);
+  height: 100%;
+}
+
+.rightCol1 {
+  width: 40vw;
+}
+.insideWhatHappening {
+  border-bottom: 1px solid rgb(62, 66, 62);
+  margin: 5px;
+}
+
+.deepInsideWhatHappening {
+  margin: 5px;
+}
+
+.ppDeepInsideWhatHappening {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.ppDeepInsideWhatHappening h3 {
+  margin-top: 0%;
+}
+
+.ppDeepInsideWhatHappening svg {
+  height: 25px;
+  width: 25px;
+  color: #fff;
+  background-color: black;
+}
+
+.theAcutalWhatHappening {
+  margin: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.theAcutalWhatHappening input {
+  color: #fff;
+  background-color: black;
+  border: none;
+  width: 100%;
+  height: 6em;
+  margin-top: 0;
+}
+
+input::placeholder {
+  align-items: flex-start;
+}
+
+.theAcutalWhatHappeningLeft {
+}
+
+.theAcutalWhatHappeningLeft svg {
+  height: 35px;
+  width: 35px;
+}
+
+.toolBoxWhatHappening {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.toolBoxWhatHappening svg {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.toolboxItems {
+  display: flex;
+  flex-direction: row;
+}
+
+.tbTweetBtn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1a8cd8;
+  border: none;
+  border-radius: 1.25em;
+  font-weight: 700;
+  font-size: 0.9375em;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 0px solid black;
+  align-items: stretch;
+  height: 25px;
+  width: 55px;
+  margin-top: 0;
+  transition: box-shadow 0.3s;
+}
+
+.tbTweetBtn:hover {
+  width: 60px;
+  color: antiquewhite;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
